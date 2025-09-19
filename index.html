@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="outer">
+     <div class="input">
+        <input type="search" placeholder="Search" id="text"/>
+        <button onclick="search()"><i class="fa-solid fa-magnifying-glass"></i></button>
+     </div>
+     <div class="img">
+        <img src="images/b-removebg-preview.png" alt="">
+     </div>
+     <h1 id="temp">---- &deg;C</h1>
+     <h2 id="cityname">---------</h2>
+     <div class="last">
+        <div class="left">
+            <i class="fa-solid fa-water" style="color: #e8eaee;"></i>
+            <h5 id="humidity">------</h5>
+            <h6>Humdity</h6>
+        </div>
+        <div class="right">
+            <i class="fa-solid fa-wind" style="color: #f1f2f4;"></i>
+            <h5 id="wind">----</h5>
+            <h6>Wind Speed</h6>
+        </div>
+     </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
