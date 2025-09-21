@@ -107,3 +107,106 @@ h2 {
     margin-left: 70px;
     margin-top: -35px;
 }
+@media (max-width:768px){
+    body {
+    background-image: url("../images/d.webp") !important;
+    object-fit: cover;
+}
+
+.outer {
+    height: 550px;
+    width: 400px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 30px;
+    background: linear-gradient(to right, blue, skyblue);
+    box-shadow: 5px 5px 5px white;
+}
+
+.outer .input {
+    display: flex;
+    margin-left: 50px;
+    padding-top: 40px !important;
+}
+
+.outer .input>input {
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    padding: 10px;
+}
+
+.outer .input>button {
+    border-radius: 100%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    margin-top: -5px;
+    margin-left: 3px;
+    font-size: 25px;
+}
+
+.img img {
+    height: 190px;
+    width: 70%;
+    object-fit: cover;
+    margin: 30px 50px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: -25px;
+    font-size: 30px;
+}
+
+.last .left {
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.last .left>h5 {
+    color: white;
+    margin-top: -50px;
+    margin-left: 75px;
+    font-size: 20px;
+}
+
+.last .left>h6 {
+    color: white;
+    margin-top: -35px;
+    margin-left: 75px;
+    font-size: 18px;
+}
+
+.last {
+    display: flex;
+}
+
+.right {
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.right h5 {
+    font-size: 20px;
+    color: white;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.right h6 {
+    font-size: 18px;
+    color: white;
+    margin-left: 70px;
+    margin-top: -35px;
+}
+}
